@@ -1,5 +1,5 @@
 /*
-  Title 		    : Arduino Memory Test Game
+  Title		: Arduino Memory Test Game
   Programmed by	: Wan Afif Hilmi
   Created on   	: 22 November 2020
 */

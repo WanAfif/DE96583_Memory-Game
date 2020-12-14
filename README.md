@@ -1,5 +1,5 @@
 ## DE96583_Memory-Game
-Click on the link below to tinker the project:
+Click on the link to tinker the project:
 [TinkerTime](https://www.tinkercad.com/things/kU2DwhCPoCZ)
 * The code is already in it.
 

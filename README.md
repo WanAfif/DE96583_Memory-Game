@@ -7,7 +7,7 @@ Click on the link below to tinker the project:
 * If you guys does'nt have tinkercad but still want to know how its being done, so here is the code.
 
 /*
-  Title 	    	: Arduino Memory Test Game
+  Title 	: Arduino Memory Test Game
   Programmed by	: Wan Afif Hilmi
   Created on  	: 22 November 2020
 */

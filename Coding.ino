@@ -36,19 +36,7 @@ void setup()
   lcd.print("Game System ^_^");
   delay(2000);
   lcd.clear();
-  
-  //count down
-  lcd.setCursor(4,0);
-  lcd.print("Start In");
-  for(int d=5; d>=1; d--)
-  {
-  lcd.setCursor(7,1);
-  lcd.print(d);
-  lcd.print("s");
-  delay(1000);
-  }
-  delay(1000);
-  lcd.clear();
+  startup();
   successed();
 }
 /*----------------------------------------end of setup function--------------------------------*/
@@ -159,7 +147,8 @@ void finish()
     lcd.print("Game Over!");
      lcd.setCursor(4,1);
     lcd.print("You Lose");
-    delay(1000);
+    delay(3000);
+    startup();
     successed();
 }
 void extra()	
@@ -176,4 +165,19 @@ void extra()
   size--;
   successed();
 }
-/*-------------------------------------------end of other functions----------------------------------*/ 
+void startup()
+{//count down
+  lcd.clear();
+  lcd.setCursor(4,0);
+  lcd.print("Start In");
+  delay(1000);
+  for(int d=5; d>=1; d--)
+  {
+  lcd.setCursor(7,1);
+  lcd.print(d);
+  lcd.print("s");
+  delay(1000);
+  }
+  delay(1000);
+}
+/*-------------------------------------------end of other functions----------------------------------*/
